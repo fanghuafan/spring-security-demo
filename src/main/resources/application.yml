@@ -1,0 +1,8 @@
+# 配置访问端口
+server:
+  port: 9090
+
+# 角色权限控制
+role:
+  admin: ROLE_ADMIN, read, write
+  user: ROLE_USER, read
